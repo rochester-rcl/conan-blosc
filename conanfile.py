@@ -11,7 +11,7 @@ class BloscConan(ConanFile):
     version = "1.5.0"
     license = "BSD"
     requires = ("zlib/1.2.8@conan/stable", )
-    url = "https://github.com/karasusan/conan-blosc"
+    url = "https://github.com/rochester-rcl/conan-blosc"
     generators = "cmake"
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False]
